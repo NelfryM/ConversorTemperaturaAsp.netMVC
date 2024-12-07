@@ -1,0 +1,13 @@
+﻿@model ConversorTemperatura.Models.TemperaturaModel
+
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<h2>Resultado de la Conversión</h2>
+
+<p>Temperatura en Celsius: @ViewBag.Celsius °C</p>
+<p>Temperatura en Fahrenheit: @ViewBag.Fahrenheit °F</p>
+
+<a href="@Url.Action("Index", "Temperatura")">Realizar otra conversión</a>
+

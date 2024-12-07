@@ -1,0 +1,9 @@
+@using (Html.BeginForm("Convertir", "Temperatura", FormMethod.Post))
+{
+    <h2>Conversión de Celsius a Fahrenheit</h2>
+
+    <label for="celsius">Ingrese la temperatura en Celsius:</label>
+    <input type="number" step="0.1" id="celsius" name="celsius" required />
+
+    <button type="submit">Convertir</button>
+}
